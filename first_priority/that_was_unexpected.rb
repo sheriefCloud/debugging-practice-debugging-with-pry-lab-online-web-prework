@@ -1,3 +1,5 @@
+require 'pry'
+
 class Person
   attr_accessor :name, :candy_lover
 
@@ -5,7 +7,6 @@ class Person
     @name = name
     @candy_lover = candy_lover
   end
-
   def tall?
     true
   end
@@ -26,4 +27,5 @@ class Person
         "not a ballin candy lover"
     end
   end
+end
 end
